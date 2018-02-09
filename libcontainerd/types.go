@@ -71,8 +71,6 @@ type EventInfo struct {
 	ExitCode    uint32
 	ExitedAt    time.Time
 	OOMKilled   bool
-	// Windows Only field
-	UpdatePending bool
 }
 
 // Backend defines callbacks that the client of the library needs to implement.
